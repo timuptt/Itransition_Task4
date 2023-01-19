@@ -13,9 +13,3 @@ $(function () {
     });
 });
 
-$(function(){
-    $('#utcDate').each(function () {
-        var localDate = new Date(parseInt($(this).attr('#utcDate')));
-        $(this).html(localDate.toLocaleDateString()+" "+localDate.toLocaleTimeString())
-    });
-});
