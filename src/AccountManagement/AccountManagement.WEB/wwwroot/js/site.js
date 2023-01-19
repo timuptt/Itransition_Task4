@@ -14,7 +14,7 @@ $(function () {
 });
 
 $('#utcDateTime').each(function () {
-    var utctimeval = $(this).html();
-    var date = new Date(utctimeval);
+    var utcTime = $(this).html();
+    var date = new Date(utcTime);
     $(this).html(date.toLocaleString());
 })
