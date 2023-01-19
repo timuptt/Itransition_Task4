@@ -1,0 +1,87 @@
+﻿@using AccountManagement.WEB.Constants
+@model List<ApplicationUserViewModel>
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+@using (Html.BeginForm("ExecuteUserAction", "Home", FormMethod.Post))
+{
+    <div>
+        <table class="table table-striped table-hover" id="usersTable">
+            <tr>
+                <div class="btn-group">
+                    <button type="submit" name="userAction" value="@UserAction.Lock" class="btn btn-outline-primary">
+                        Block
+                    </button>
+                    <button type="submit" name="userAction" value="@UserAction.Unlock" class="btn btn-outline-success">
+                        <i class="bi bi-unlock"></i>
+                    </button>
+                    <button type="submit" name="userAction" value="@UserAction.Delete" class="btn btn-danger">
+                        <i class="bi bi-trash"></i>
+                    </button>
+                </div>
+            </tr>
+            <thead>
+            <tr>
+                <td class="text-center">
+                    @Html.CheckBox("CheckAllUsers", 
+                        false, 
+                        new { id = "checkAllUsers", onclick = "checkAll()" })
+                </td>
+                <td>
+                    @Html.DisplayNameFor(u => u[0].Id)
+                </td>
+                <td>
+                    @Html.DisplayNameFor(u => u[0].FullName)
+                </td>
+                <td>
+                    @Html.DisplayNameFor(u => u[0].Email)
+                </td>
+                <td>
+                    @Html.DisplayNameFor(u => u[0].RegistrationDate)
+                </td>
+                <td>
+                    @Html.DisplayNameFor(u => u[0].LastLoginDate)
+                </td>
+                <td>
+                    @Html.DisplayNameFor(u => u[0].Status)
+                </td>
+            </tr>
+            </thead>
+            <tbody>
+            @for (int i = 0; i < Model.Count(); i++)
+            {
+                @Html.HiddenFor(m => m[i].Id)
+                @Html.HiddenFor(m => m[i].FullName)
+                @Html.HiddenFor(m => m[i].Email)
+                @Html.HiddenFor(m => m[i].Status)
+                @Html.HiddenFor(m => m[i].RegistrationDate)
+                @Html.HiddenFor(m => m[i].LastLoginDate)
+                <tr>
+                    <td class="text-center">
+                        @Html.CheckBoxFor(m => m[i].IsSelected)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(m => m[i].Id)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(m => m[i].FullName)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(m => m[i].Email)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(m => m[i].RegistrationDate.LocalDateTime)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(m => m[i].LastLoginDate.LocalDateTime)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(m => m[i].Status)
+                    </td>
+                </tr>
+            }
+            </tbody>
+        </table>
+    </div>
+}
