@@ -4,10 +4,7 @@
     <projectFile profileName="AccountManagement.WEB">AccountManagement.WEB/AccountManagement.WEB.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a355d8e7-df59-47c9-8ee4-dcc13ea7e1db" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.AccountManagement/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.AccountManagement/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AccountManagement.WEB/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/AccountManagement.WEB/Dockerfile" afterDir="false" />
-    </list>
+    <list default="true" id="a355d8e7-df59-47c9-8ee4-dcc13ea7e1db" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -73,7 +70,7 @@
       <option name="presentableId" value="Default" />
       <updated>1673979049730</updated>
       <workItem from="1673979050853" duration="30852000" />
-      <workItem from="1674121128352" duration="9416000" />
+      <workItem from="1674121128352" duration="9768000" />
     </task>
     <servers />
   </component>

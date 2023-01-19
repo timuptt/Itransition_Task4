@@ -5,6 +5,7 @@ EXPOSE 443
 
 FROM mcr.microsoft.com/dotnet/sdk:6.0 AS build
 WORKDIR /src
+COPY ["AccountManagement.sln", "."]
 COPY ["AccountManagement.WEB/AccountManagement.WEB.csproj", "AccountManagement.WEB/"]
 COPY ["AccountManagement.Infrastructure/AccountManagement.Infrastructure.csproj", "AccountManagement.Infrastructure/"]
 RUN dotnet restore
