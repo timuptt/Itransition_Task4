@@ -5,13 +5,14 @@
     <projectFile profileName="AccountManagement.WEB">AccountManagement.WEB/AccountManagement.WEB.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a355d8e7-df59-47c9-8ee4-dcc13ea7e1db" name="Changes" comment="date fix 6" />
+    <list default="true" id="a355d8e7-df59-47c9-8ee4-dcc13ea7e1db" name="Changes" comment="date fix 9" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="mock:///Users/timshukin/Documents/GitHub/Itransition_Task4/src/AccountManagement/AccountManagement.WEB/Views/Home/Index.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="SKIP_HIGHLIGHTING" />
     <setting file="mock:///Users/timshukin/Documents/GitHub/Itransition_Task4/src/AccountManagement/AccountManagement.WEB/Views/Home/Index.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="SKIP_HIGHLIGHTING" />
     <setting file="mock:///Users/timshukin/Documents/GitHub/Itransition_Task4/src/AccountManagement/AccountManagement.WEB/Views/Home/Index.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="SKIP_HIGHLIGHTING" />
     <setting file="mock:///Users/timshukin/Documents/GitHub/Itransition_Task4/src/AccountManagement/AccountManagement.WEB/Views/Home/Index.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="SKIP_HIGHLIGHTING" />
@@ -117,7 +118,28 @@
       <option name="project" value="LOCAL" />
       <updated>1674152390855</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="date fix 7">
+      <created>1674152540762</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1674152540762</updated>
+    </task>
+    <task id="LOCAL-00005" summary="date fix 8">
+      <created>1674152663053</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1674152663053</updated>
+    </task>
+    <task id="LOCAL-00006" summary="date fix 9">
+      <created>1674152871133</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1674152871134</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -142,6 +164,9 @@
     <MESSAGE value="date fix 4" />
     <MESSAGE value="date fix 5" />
     <MESSAGE value="date fix 6" />
-    <option name="LAST_COMMIT_MESSAGE" value="date fix 6" />
+    <MESSAGE value="date fix 7" />
+    <MESSAGE value="date fix 8" />
+    <MESSAGE value="date fix 9" />
+    <option name="LAST_COMMIT_MESSAGE" value="date fix 9" />
   </component>
 </project>
