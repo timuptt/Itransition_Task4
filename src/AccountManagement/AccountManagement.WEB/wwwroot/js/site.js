@@ -15,6 +15,6 @@ $(function () {
 
 $('#utcDateTime').each(function () {
     var utcTime = $(this).html();
-    var date = new Date(utcTime);
+    var date = new Date(utcTime + "Z");
     $(this).html(date.toLocaleString());
 })
