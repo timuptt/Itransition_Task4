@@ -10,13 +10,10 @@ namespace AccountManagement.WEB.Controllers;
 [Authorize]
 public class HomeController : Controller
 {
-    private readonly ILogger<HomeController> _logger;
     private readonly IAccountService _accountService;
     
-
-    public HomeController(ILogger<HomeController> logger, IAccountService accountService)
+    public HomeController(IAccountService accountService)
     {
-        _logger = logger;
         _accountService = accountService;
     }
 

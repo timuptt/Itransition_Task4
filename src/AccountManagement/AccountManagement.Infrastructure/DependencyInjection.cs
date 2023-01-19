@@ -4,7 +4,6 @@ using AccountManagement.Infrastructure.Identity.Contexts;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
-using Npgsql;
 
 namespace AccountManagement.Infrastructure;
 

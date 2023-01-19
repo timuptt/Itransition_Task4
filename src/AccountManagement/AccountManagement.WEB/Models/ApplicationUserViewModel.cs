@@ -22,5 +22,5 @@ public class ApplicationUserViewModel
     [DisplayName("Status")]
     public string Status { get; set; }
     
-    public bool IsSelected { get; set; } = false;
+    public bool IsSelected { get; set; }
 }
