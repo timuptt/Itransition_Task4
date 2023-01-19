@@ -12,8 +12,6 @@ public static class DependencyInjection
 {
     public static IServiceCollection AddInfrastructure(this IServiceCollection services, IConfiguration configuration)
     {
-        var connectionString = configuration.GetConnectionString("PostgresIdentity") ??
-                               throw new InvalidOperationException("Connection string 'PostgresIdentity' not found.");
         services.AddDbContext<ApplicationIdentityContext>(options =>
             options.UseNpgsql(ConnectionHelper.GetConnectionString(configuration)));
 
