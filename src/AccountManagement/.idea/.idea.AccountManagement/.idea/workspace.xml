@@ -5,13 +5,16 @@
     <projectFile profileName="AccountManagement.WEB">AccountManagement.WEB/AccountManagement.WEB.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a355d8e7-df59-47c9-8ee4-dcc13ea7e1db" name="Changes" comment="date fix 9" />
+    <list default="true" id="a355d8e7-df59-47c9-8ee4-dcc13ea7e1db" name="Changes" comment="date fix 11" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="mock:///Users/timshukin/Documents/GitHub/Itransition_Task4/src/AccountManagement/AccountManagement.WEB/Views/Home/Index.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Users/timshukin/Documents/GitHub/Itransition_Task4/src/AccountManagement/AccountManagement.WEB/Views/Home/Index.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Users/timshukin/Documents/GitHub/Itransition_Task4/src/AccountManagement/AccountManagement.WEB/Views/Home/Index.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="SKIP_HIGHLIGHTING" />
     <setting file="mock:///Users/timshukin/Documents/GitHub/Itransition_Task4/src/AccountManagement/AccountManagement.WEB/Views/Home/Index.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="SKIP_HIGHLIGHTING" />
     <setting file="mock:///Users/timshukin/Documents/GitHub/Itransition_Task4/src/AccountManagement/AccountManagement.WEB/Views/Home/Index.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="SKIP_HIGHLIGHTING" />
     <setting file="mock:///Users/timshukin/Documents/GitHub/Itransition_Task4/src/AccountManagement/AccountManagement.WEB/Views/Home/Index.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="SKIP_HIGHLIGHTING" />
@@ -139,7 +142,21 @@
       <option name="project" value="LOCAL" />
       <updated>1674152871134</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="date fix 10">
+      <created>1674153093635</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1674153093635</updated>
+    </task>
+    <task id="LOCAL-00008" summary="date fix 11">
+      <created>1674153462512</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1674153462512</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -167,6 +184,8 @@
     <MESSAGE value="date fix 7" />
     <MESSAGE value="date fix 8" />
     <MESSAGE value="date fix 9" />
-    <option name="LAST_COMMIT_MESSAGE" value="date fix 9" />
+    <MESSAGE value="date fix 10" />
+    <MESSAGE value="date fix 11" />
+    <option name="LAST_COMMIT_MESSAGE" value="date fix 11" />
   </component>
 </project>
