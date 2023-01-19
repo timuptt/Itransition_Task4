@@ -7,7 +7,7 @@ FROM mcr.microsoft.com/dotnet/sdk:6.0 AS build
 WORKDIR /src
 COPY ["AccountManagement.WEB/AccountManagement.WEB.csproj", "AccountManagement.WEB/"]
 COPY ["AccountManagement.Infrastructure/AccountManagement.Infrastructure.csproj", "AccountManagement.Infrastructure/"]
-RUN dotnet restore "AccountManagement.WEB/AccountManagement.WEB.csproj"
+RUN dotnet restore
 COPY . .
 WORKDIR "/src/AccountManagement.WEB"
 RUN dotnet build "AccountManagement.WEB.csproj" -c Release -o /app/build

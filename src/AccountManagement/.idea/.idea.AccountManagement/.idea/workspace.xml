@@ -5,114 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a355d8e7-df59-47c9-8ee4-dcc13ea7e1db" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.AccountManagement/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AccountManagement.Infrastructure/AccountManagement.Infrastructure.csproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AccountManagement.Infrastructure/DependencyInjection.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AccountManagement.Infrastructure/Helpers/ConnectionHelper.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AccountManagement.Infrastructure/Helpers/DataHelper.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AccountManagement.Infrastructure/Helpers/DateTimeConverter.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AccountManagement.Infrastructure/Helpers/DateTimeOffsetConverter.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AccountManagement.Infrastructure/Identity/ApplicationUser.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AccountManagement.Infrastructure/Identity/Contexts/ApplicationIdentityContext.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AccountManagement.Infrastructure/Identity/Contexts/DesignTimeIdentityDbContext.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AccountManagement.Infrastructure/Identity/UserRoles.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AccountManagement.Infrastructure/Migrations/20230119100701_InitialCreate.Designer.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AccountManagement.Infrastructure/Migrations/20230119100701_InitialCreate.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AccountManagement.Infrastructure/Migrations/20230119115913_Create2.Designer.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AccountManagement.Infrastructure/Migrations/20230119115913_Create2.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AccountManagement.Infrastructure/Migrations/ApplicationIdentityContextModelSnapshot.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AccountManagement.Infrastructure/appsettings.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AccountManagement.WEB/AccountManagement.WEB.csproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AccountManagement.WEB/Areas/Identity/Pages/Account/Login.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AccountManagement.WEB/Areas/Identity/Pages/Account/Login.cshtml.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AccountManagement.WEB/Areas/Identity/Pages/Account/Logout.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AccountManagement.WEB/Areas/Identity/Pages/Account/Logout.cshtml.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AccountManagement.WEB/Areas/Identity/Pages/Account/Register.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AccountManagement.WEB/Areas/Identity/Pages/Account/Register.cshtml.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AccountManagement.WEB/Areas/Identity/Pages/Account/_ViewImports.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AccountManagement.WEB/Areas/Identity/Pages/_ValidationScriptsPartial.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AccountManagement.WEB/Areas/Identity/Pages/_ViewImports.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AccountManagement.WEB/Areas/Identity/Pages/_ViewStart.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AccountManagement.WEB/Constants/UserAction.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AccountManagement.WEB/Controllers/HomeController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AccountManagement.WEB/Interfaces/IAccountService.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AccountManagement.WEB/Middlewares/LogoutMiddleware.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AccountManagement.WEB/Models/ApplicationUserViewModel.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AccountManagement.WEB/Models/ErrorViewModel.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AccountManagement.WEB/Program.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AccountManagement.WEB/Properties/launchSettings.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AccountManagement.WEB/Services/AccountService.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AccountManagement.WEB/Views/Home/Index.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AccountManagement.WEB/Views/Shared/Error.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AccountManagement.WEB/Views/Shared/_Layout.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AccountManagement.WEB/Views/Shared/_Layout.cshtml.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AccountManagement.WEB/Views/Shared/_LoginPartial.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AccountManagement.WEB/Views/Shared/_ValidationScriptsPartial.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AccountManagement.WEB/Views/_ViewImports.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AccountManagement.WEB/Views/_ViewStart.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AccountManagement.WEB/appsettings.Development.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AccountManagement.WEB/appsettings.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AccountManagement.WEB/wwwroot/css/site.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AccountManagement.WEB/wwwroot/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AccountManagement.WEB/wwwroot/js/site.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AccountManagement.WEB/wwwroot/lib/bootstrap/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AccountManagement.WEB/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AccountManagement.WEB/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AccountManagement.WEB/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AccountManagement.WEB/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AccountManagement.WEB/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AccountManagement.WEB/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AccountManagement.WEB/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AccountManagement.WEB/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AccountManagement.WEB/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AccountManagement.WEB/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AccountManagement.WEB/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AccountManagement.WEB/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AccountManagement.WEB/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AccountManagement.WEB/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AccountManagement.WEB/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AccountManagement.WEB/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AccountManagement.WEB/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AccountManagement.WEB/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AccountManagement.WEB/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AccountManagement.WEB/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AccountManagement.WEB/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AccountManagement.WEB/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AccountManagement.WEB/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AccountManagement.WEB/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AccountManagement.WEB/wwwroot/lib/bootstrap/dist/css/bootstrap.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AccountManagement.WEB/wwwroot/lib/bootstrap/dist/css/bootstrap.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AccountManagement.WEB/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AccountManagement.WEB/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AccountManagement.WEB/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AccountManagement.WEB/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AccountManagement.WEB/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AccountManagement.WEB/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AccountManagement.WEB/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AccountManagement.WEB/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AccountManagement.WEB/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AccountManagement.WEB/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AccountManagement.WEB/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AccountManagement.WEB/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AccountManagement.WEB/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AccountManagement.WEB/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AccountManagement.WEB/wwwroot/lib/bootstrap/dist/js/bootstrap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AccountManagement.WEB/wwwroot/lib/bootstrap/dist/js/bootstrap.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AccountManagement.WEB/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AccountManagement.WEB/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AccountManagement.WEB/wwwroot/lib/jquery-validation-unobtrusive/LICENSE.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AccountManagement.WEB/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AccountManagement.WEB/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AccountManagement.WEB/wwwroot/lib/jquery-validation/LICENSE.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AccountManagement.WEB/wwwroot/lib/jquery-validation/dist/additional-methods.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AccountManagement.WEB/wwwroot/lib/jquery-validation/dist/additional-methods.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AccountManagement.WEB/wwwroot/lib/jquery-validation/dist/jquery.validate.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AccountManagement.WEB/wwwroot/lib/jquery-validation/dist/jquery.validate.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AccountManagement.WEB/wwwroot/lib/jquery/LICENSE.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AccountManagement.WEB/wwwroot/lib/jquery/dist/jquery.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AccountManagement.WEB/wwwroot/lib/jquery/dist/jquery.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AccountManagement.WEB/wwwroot/lib/jquery/dist/jquery.min.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AccountManagement.sln" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.AccountManagement/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.AccountManagement/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AccountManagement.WEB/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/AccountManagement.WEB/Dockerfile" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -179,7 +73,7 @@
       <option name="presentableId" value="Default" />
       <updated>1673979049730</updated>
       <workItem from="1673979050853" duration="30852000" />
-      <workItem from="1674121128352" duration="8231000" />
+      <workItem from="1674121128352" duration="9416000" />
     </task>
     <servers />
   </component>
