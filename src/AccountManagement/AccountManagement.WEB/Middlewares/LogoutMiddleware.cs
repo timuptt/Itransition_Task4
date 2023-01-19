@@ -17,7 +17,6 @@ public class LogoutMiddleware
         UserManager<ApplicationUser> userManager,
         SignInManager<ApplicationUser> signInManager)
     {
-        await _next(context);
         if (context.User.Identity is { IsAuthenticated: true })
         {
             var userEmail = context.User.Claims.FirstOrDefault(c => c.Type == ClaimTypes.Email)?.Value;
@@ -26,7 +25,10 @@ public class LogoutMiddleware
             {
                 await signInManager.SignOutAsync();
                 context.Response.Redirect("/Identity/Account/Login");
+                return;
             }
         }
+
+        await _next(context);
     }
 }

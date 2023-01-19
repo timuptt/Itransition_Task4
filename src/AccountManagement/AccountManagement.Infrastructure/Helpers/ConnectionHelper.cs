@@ -1,9 +1,17 @@
+using Microsoft.Extensions.Configuration;
 using Npgsql;
 
 namespace AccountManagement.Infrastructure.Helpers;
 
 public class ConnectionHelper
 {
+    public static string GetConnectionString(IConfiguration configuration)
+    {
+        var connectionString = configuration.GetConnectionString("DefaultConnection");
+        var databaseUrl = Environment.GetEnvironmentVariable("DATABASE_URL");
+        return string.IsNullOrEmpty(databaseUrl) ? connectionString : BuildConnectionString(databaseUrl);
+    }
+    
     public static string BuildConnectionString(string databaseUrl)
     {
         var databaseUri = new Uri(databaseUrl);
