@@ -13,3 +13,8 @@ $(function () {
     });
 });
 
+$('#utcDateTime').each(function () {
+    var utctimeval = $(this).html();
+    var date = new Date(utctimeval);
+    $(this).html(date.toLocaleString());
+})
