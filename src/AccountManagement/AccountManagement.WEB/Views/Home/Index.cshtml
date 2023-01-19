@@ -69,10 +69,10 @@
                         @Html.DisplayFor(m => m[i].Email)
                     </td>
                     <td id="utcDateTime">
-                        @Html.DisplayFor(m => m[i].RegistrationDate.LocalDateTime)
+                        @Html.DisplayFor(m => m[i].RegistrationDate.UtcDateTime)
                     </td>
                     <td id="utcDateTime">
-                        @Html.DisplayFor(m => m[i].LastLoginDate.LocalDateTime)
+                        @Html.DisplayFor(m => m[i].LastLoginDate.UtcDateTime)
                     </td>
                     <td>
                         @Html.DisplayFor(m => m[i].Status)
