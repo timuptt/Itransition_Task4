@@ -7,8 +7,14 @@
   <component name="ChangeListManager">
     <list default="true" id="a355d8e7-df59-47c9-8ee4-dcc13ea7e1db" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.AccountManagement/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.AccountManagement/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AccountManagement.WEB/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/AccountManagement.WEB/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AccountManagement.Infrastructure/DependencyInjection.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AccountManagement.Infrastructure/DependencyInjection.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AccountManagement.Infrastructure/Helpers/ConnectionHelper.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AccountManagement.Infrastructure/Helpers/ConnectionHelper.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AccountManagement.Infrastructure/Helpers/DataHelper.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AccountManagement.Infrastructure/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/AccountManagement.Infrastructure/appsettings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AccountManagement.WEB/Middlewares/LogoutMiddleware.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AccountManagement.WEB/Middlewares/LogoutMiddleware.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AccountManagement.WEB/Properties/launchSettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/AccountManagement.WEB/Properties/launchSettings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AccountManagement.WEB/Views/Home/Index.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/AccountManagement.WEB/Views/Home/Index.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AccountManagement.WEB/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/AccountManagement.WEB/appsettings.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -101,24 +107,5 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/AccountManagement.WEB/Views/Shared/_Layout.cshtml</url>
-          <properties documentPath="$PROJECT_DIR$/AccountManagement.WEB/Views/Shared/_Layout.cshtml" initialLine="0" isMultiMethodBreakpoint="true">
-            <option name="multiMethodBreakpoint" value="true" />
-            <startOffsets>
-              <option value="-1" />
-            </startOffsets>
-            <endOffsets>
-              <option value="-1" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="15" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
