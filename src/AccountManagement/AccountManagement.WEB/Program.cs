@@ -1,11 +1,9 @@
 using AccountManagement.Infrastructure;
-using AccountManagement.Infrastructure.Helpers;
 using AccountManagement.Infrastructure.Identity;
 using AccountManagement.Infrastructure.Identity.Contexts;
 using AccountManagement.WEB.Interfaces;
 using AccountManagement.WEB.Middlewares;
 using AccountManagement.WEB.Services;
-using Microsoft.CodeAnalysis.CSharp.Syntax;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -28,8 +26,6 @@ builder.Services.AddScoped<IAccountService, AccountService>();
 builder.Services.AddControllersWithViews();
 
 var app = builder.Build();
-
-AppContext.SetSwitch("Npgsql.EnableLegacyTimestampBehavior", true);
 
 using (var scope = app.Services.CreateScope())
 {

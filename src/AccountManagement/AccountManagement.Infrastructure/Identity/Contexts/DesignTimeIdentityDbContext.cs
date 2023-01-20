@@ -13,7 +13,7 @@ public class DesignTimeIdentityDbContext : IDesignTimeDbContextFactory<Applicati
         configurationBuilder.AddJsonFile(Path.Combine(Directory.GetCurrentDirectory(), "appsettings.json"));
         IConfigurationRoot configuration = configurationBuilder.Build();
 
-        var connectionString = configuration.GetConnectionString("PostgresIdentity");
+        var connectionString = configuration.GetConnectionString("DefaultConnection");
 
         DbContextOptionsBuilder<ApplicationIdentityContext> builder = new();
         builder.UseNpgsql(ConnectionHelper.BuildConnectionString(connectionString));

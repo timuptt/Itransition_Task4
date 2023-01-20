@@ -5,31 +5,28 @@
     <projectFile profileName="AccountManagement.WEB">AccountManagement.WEB/AccountManagement.WEB.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a355d8e7-df59-47c9-8ee4-dcc13ea7e1db" name="Changes" comment="date fix 14" />
+    <list default="true" id="a355d8e7-df59-47c9-8ee4-dcc13ea7e1db" name="Changes" comment="date fix 14">
+      <change afterPath="$PROJECT_DIR$/AccountManagement.Infrastructure/Helpers/DateTimeOffsetToDateTimeUtcConverter.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AccountManagement.Infrastructure/Migrations/20230120103559_DateTimeOffsetConverter.Designer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AccountManagement.Infrastructure/Migrations/20230120103559_DateTimeOffsetConverter.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.AccountManagement/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.AccountManagement/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AccountManagement.Infrastructure/Helpers/ConnectionHelper.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AccountManagement.Infrastructure/Helpers/ConnectionHelper.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AccountManagement.Infrastructure/Identity/Contexts/ApplicationIdentityContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AccountManagement.Infrastructure/Identity/Contexts/ApplicationIdentityContext.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AccountManagement.Infrastructure/Identity/Contexts/DesignTimeIdentityDbContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AccountManagement.Infrastructure/Identity/Contexts/DesignTimeIdentityDbContext.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AccountManagement.Infrastructure/Migrations/20230119122023_DateTimeOffset.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AccountManagement.Infrastructure/Migrations/20230119122023_DateTimeOffset.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AccountManagement.WEB/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AccountManagement.WEB/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AccountManagement.WEB/Views/Home/Index.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/AccountManagement.WEB/Views/Home/Index.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AccountManagement.WEB/wwwroot/js/site.js" beforeDir="false" afterPath="$PROJECT_DIR$/AccountManagement.WEB/wwwroot/js/site.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="mock:///Users/timshukin/Documents/GitHub/Itransition_Task4/src/AccountManagement/AccountManagement.WEB/Views/Home/Index.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Users/timshukin/Documents/GitHub/Itransition_Task4/src/AccountManagement/AccountManagement.WEB/Views/Home/Index.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Users/timshukin/Documents/GitHub/Itransition_Task4/src/AccountManagement/AccountManagement.WEB/Views/Home/Index.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Users/timshukin/Documents/GitHub/Itransition_Task4/src/AccountManagement/AccountManagement.WEB/Views/Home/Index.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Users/timshukin/Documents/GitHub/Itransition_Task4/src/AccountManagement/AccountManagement.WEB/Views/Home/Index.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Users/timshukin/Documents/GitHub/Itransition_Task4/src/AccountManagement/AccountManagement.WEB/Views/Home/Index.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Users/timshukin/Documents/GitHub/Itransition_Task4/src/AccountManagement/AccountManagement.WEB/Views/Home/Index.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Users/timshukin/Documents/GitHub/Itransition_Task4/src/AccountManagement/AccountManagement.WEB/Views/Home/Index.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Users/timshukin/Documents/GitHub/Itransition_Task4/src/AccountManagement/AccountManagement.WEB/Views/Home/Index.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Users/timshukin/Documents/GitHub/Itransition_Task4/src/AccountManagement/AccountManagement.WEB/Views/Home/Index.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Users/timshukin/Documents/GitHub/Itransition_Task4/src/AccountManagement/AccountManagement.WEB/Views/Home/Index.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Users/timshukin/Documents/GitHub/Itransition_Task4/src/AccountManagement/AccountManagement.WEB/Views/Home/Index.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Users/timshukin/Documents/GitHub/Itransition_Task4/src/AccountManagement/AccountManagement.WEB/Views/Home/Index.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Users/timshukin/Documents/GitHub/Itransition_Task4/src/AccountManagement/AccountManagement.WEB/Views/Home/Index.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Users/timshukin/Documents/GitHub/Itransition_Task4/src/AccountManagement/AccountManagement.WEB/Views/Home/Index.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Users/timshukin/Documents/GitHub/Itransition_Task4/src/AccountManagement/AccountManagement.WEB/Views/Home/Index.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Users/timshukin/Documents/GitHub/Itransition_Task4/src/AccountManagement/AccountManagement.WEB/Views/Home/Index.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Users/timshukin/Documents/GitHub/Itransition_Task4/src/AccountManagement/AccountManagement.WEB/Views/Home/Index.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Users/timshukin/Documents/GitHub/Itransition_Task4/src/AccountManagement/AccountManagement.Infrastructure/Identity/ApplicationUser.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Users/timshukin/Documents/GitHub/Itransition_Task4/src/AccountManagement/AccountManagement.WEB/Areas/Identity/Pages/Account/Login.cshtml.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/2cb917beaf504df8a3d34b2c438a10882b400/_cff9b/DataType.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/91a84fe4b35624290abf32df61ac6c77c502a5bbb0616172bdce8fee8fdc2a/UserManager.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/bebd253e21dcf766929bfdfd74615bfe46e6e1693b289273dbdb82152893/ExceptionDispatchInfo.cs" root0="SKIP_HIGHLIGHTING" />
@@ -106,6 +103,7 @@
       <updated>1673979049730</updated>
       <workItem from="1673979050853" duration="30852000" />
       <workItem from="1674121128352" duration="10199000" />
+      <workItem from="1674208793437" duration="3516000" />
     </task>
     <task id="LOCAL-00001" summary="date fix 4">
       <created>1674149719372</created>
