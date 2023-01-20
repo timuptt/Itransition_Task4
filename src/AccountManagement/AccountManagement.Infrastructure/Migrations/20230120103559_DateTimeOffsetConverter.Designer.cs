@@ -12,8 +12,8 @@ using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 namespace AccountManagement.Infrastructure.Migrations
 {
     [DbContext(typeof(ApplicationIdentityContext))]
-    [Migration("20230119122023_DateTimeOffset")]
-    partial class DateTimeOffset
+    [Migration("20230120103559_DateTimeOffsetConverter")]
+    partial class DateTimeOffsetConverter
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {

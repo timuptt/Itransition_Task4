@@ -4,7 +4,7 @@
 
 namespace AccountManagement.Infrastructure.Migrations
 {
-    public partial class DateTimeOffset : Migration
+    public partial class DateTimeOffsetConverter : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {

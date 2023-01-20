@@ -24,7 +24,7 @@
                 <td class="text-center">
                     @Html.CheckBox("CheckAllUsers", 
                         false, 
-                        new { id = "checkAllUsers", onclick = "checkAll()" })
+                        new { id = "checkAllUsers", onclick = "checkAll()", alt="Choose all" })
                 </td>
                 <td>
                     @Html.DisplayNameFor(u => u[0].Id)
@@ -69,10 +69,10 @@
                         @Html.DisplayFor(m => m[i].Email)
                     </td>
                     <td class="utc-date-time">
-                        @Html.DisplayFor(m => m[i].RegistrationDate.LocalDateTime)
+                        @Html.DisplayFor(m => m[i].RegistrationDate)
                     </td>
                     <td class="utc-date-time">
-                        @Html.DisplayFor(m => m[i].LastLoginDate.LocalDateTime)
+                        @Html.DisplayFor(m => m[i].LastLoginDate)
                     </td>
                     <td>
                         @Html.DisplayFor(m => m[i].Status)
